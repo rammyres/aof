@@ -4,13 +4,13 @@
             "tipo": "formulario_ir", 
             "descricao": "Isenção de IR não preenchida no formulário",
             "alerta": "Verifique se o levantamento diz respeito a um RPV ou precatório federal, caso positivo a marcação no formulário é obrigatória",
-            "texto": "Conforme IN 147-1 12.9 e IN 147-2 14.1.2.5.7, a marcação e o formulário de dispensa só são exigíveis para levantamento de precatórios e RPV"
+            "texto": "Conforme IN 147-1 12.9 e IN 147-2 14.1.2.5.7, a marcação e o formulário de dispensa só são exigíveis para levantamento de precatórios e RPV."
         },
         {
             "tipo": "formulario_antigo", 
             "descricao": "Formulário antigo/desatualizado usado",
             "alerta": "O formulário precisa ter todas as informações para identificação do beneficiário, independentemente da versão",
-            "texto": "Atentar para o Resolve 7287201, aberto pela rede de DIOPE, sobre uso de versões antigas do forulário de levantamento"
+            "texto": "Atentar para o Resolve 7287201, aberto pela rede de DIOPE, sobre uso de versões antigas do forulário de levantamento."
         },
         {
             "tipo":"id_sisbajud",

@@ -194,7 +194,7 @@ app.post('/enviar', (req, res) => {
           <h1>Resultado</h1>
           <div class="result-container">
             <p>O AOF ${numeroAOF} foi devolvido sob a seguinte justificativa:</p>
-            <p>Justificativa da PSO/CENOP:<br/><i>${justificativa}</i></p>
+            <p><i>${justificativa}</i></p>
             <p id="resultText">${textoEquivalente}</p>
             <button class="copy-button" onclick="copyToClipboard()">Copiar Texto</button>
           </div>
@@ -218,7 +218,7 @@ app.post('/enviar', (req, res) => {
             window.getSelection().addRange(range);
             document.execCommand('copy');
             window.getSelection().removeAllRanges();
-            alert('Texto copiado para a área de transferência, excluindo a primeira linha!');
+            alert('Texto copiado para a área de transferência!');
           }
           </script>
         </body>
